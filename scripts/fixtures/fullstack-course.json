@@ -1,0 +1,690 @@
+{
+  "course": {
+    "id": "crs_fullstack",
+    "slug": "full-stack-web-development",
+    "title": "Full Stack Web Development",
+    "subtitle": "HTML, CSS, JavaScript and React — from first tag to deployed app.",
+    "description": "A complete, project-driven path into modern web development. You will start with semantic HTML and responsive CSS, build real interactivity with JavaScript, and finish by shipping a React application with routing, state and API integration. Every module ends with a graded quiz, and the course closes with a portfolio project and a proctored-style final assessment.",
+    "categoryId": "cat_web",
+    "instructorId": "ins_arjun",
+    "thumbnail": "/thumbnails/full-stack-web-development.svg",
+    "level": "Beginner",
+    "language": "English",
+    "price": 4999,
+    "originalPrice": 12999,
+    "rating": 4.8,
+    "ratingCount": 2314,
+    "enrolledCount": 11820,
+    "modules": [
+      {
+        "id": "crs_fullstack_m1",
+        "courseId": "crs_fullstack",
+        "title": "HTML Fundamentals",
+        "description": "The structure of every web page, from document outline to forms.",
+        "order": 1,
+        "lessons": [
+          {
+            "id": "crs_fullstack_m1_l1",
+            "moduleId": "crs_fullstack_m1",
+            "title": "Introduction to HTML",
+            "description": "In this lesson you will work through introduction to html with a guided walkthrough, practical examples and a short recap you can refer back to later.",
+            "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "durationSeconds": 720,
+            "order": 1,
+            "isPreview": true,
+            "resources": [
+              { "id": "crs_fullstack_m1_l1_r1", "title": "Introduction to HTML — slides (PDF)", "type": "pdf", "url": "#", "size": "1.2 MB" },
+              { "id": "crs_fullstack_m1_l1_r2", "title": "Starter files", "type": "zip", "url": "#", "size": "340 KB" }
+            ]
+          },
+          {
+            "id": "crs_fullstack_m1_l2",
+            "moduleId": "crs_fullstack_m1",
+            "title": "HTML Structure",
+            "description": "In this lesson you will work through html structure with a guided walkthrough, practical examples and a short recap you can refer back to later.",
+            "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "durationSeconds": 900,
+            "order": 2,
+            "isPreview": false,
+            "resources": [{ "id": "crs_fullstack_m1_l2_r1", "title": "HTML Structure — slides (PDF)", "type": "pdf", "url": "#", "size": "1.2 MB" }]
+          },
+          {
+            "id": "crs_fullstack_m1_l3",
+            "moduleId": "crs_fullstack_m1",
+            "title": "HTML Forms",
+            "description": "In this lesson you will work through html forms with a guided walkthrough, practical examples and a short recap you can refer back to later.",
+            "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+            "durationSeconds": 1080,
+            "order": 3,
+            "isPreview": false,
+            "resources": [{ "id": "crs_fullstack_m1_l3_r1", "title": "HTML Forms — slides (PDF)", "type": "pdf", "url": "#", "size": "1.2 MB" }]
+          }
+        ],
+        "quizId": "crs_fullstack_m1_quiz"
+      },
+      {
+        "id": "crs_fullstack_m2",
+        "courseId": "crs_fullstack",
+        "title": "CSS Fundamentals",
+        "description": "Styling, layout and responsive design.",
+        "order": 2,
+        "lessons": [
+          {
+            "id": "crs_fullstack_m2_l1",
+            "moduleId": "crs_fullstack_m2",
+            "title": "Introduction to CSS",
+            "description": "In this lesson you will work through introduction to css with a guided walkthrough, practical examples and a short recap you can refer back to later.",
+            "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+            "durationSeconds": 840,
+            "order": 1,
+            "isPreview": false,
+            "resources": [
+              { "id": "crs_fullstack_m2_l1_r1", "title": "Introduction to CSS — slides (PDF)", "type": "pdf", "url": "#", "size": "1.2 MB" },
+              { "id": "crs_fullstack_m2_l1_r2", "title": "Starter files", "type": "zip", "url": "#", "size": "340 KB" }
+            ]
+          },
+          {
+            "id": "crs_fullstack_m2_l2",
+            "moduleId": "crs_fullstack_m2",
+            "title": "Flexbox",
+            "description": "In this lesson you will work through flexbox with a guided walkthrough, practical examples and a short recap you can refer back to later.",
+            "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+            "durationSeconds": 1320,
+            "order": 2,
+            "isPreview": false,
+            "resources": [{ "id": "crs_fullstack_m2_l2_r1", "title": "Flexbox — slides (PDF)", "type": "pdf", "url": "#", "size": "1.2 MB" }]
+          },
+          {
+            "id": "crs_fullstack_m2_l3",
+            "moduleId": "crs_fullstack_m2",
+            "title": "CSS Grid",
+            "description": "In this lesson you will work through css grid with a guided walkthrough, practical examples and a short recap you can refer back to later.",
+            "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+            "durationSeconds": 1440,
+            "order": 3,
+            "isPreview": false,
+            "resources": [{ "id": "crs_fullstack_m2_l3_r1", "title": "CSS Grid — slides (PDF)", "type": "pdf", "url": "#", "size": "1.2 MB" }]
+          }
+        ],
+        "quizId": "crs_fullstack_m2_quiz"
+      },
+      {
+        "id": "crs_fullstack_m3",
+        "courseId": "crs_fullstack",
+        "title": "JavaScript",
+        "description": "Language fundamentals, the DOM and asynchronous code.",
+        "order": 3,
+        "lessons": [
+          {
+            "id": "crs_fullstack_m3_l1",
+            "moduleId": "crs_fullstack_m3",
+            "title": "Variables, Types and Functions",
+            "description": "In this lesson you will work through variables, types and functions with a guided walkthrough, practical examples and a short recap you can refer back to later.",
+            "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "durationSeconds": 1200,
+            "order": 1,
+            "isPreview": false,
+            "resources": [
+              {
+                "id": "crs_fullstack_m3_l1_r1",
+                "title": "Variables, Types and Functions — slides (PDF)",
+                "type": "pdf",
+                "url": "#",
+                "size": "1.2 MB"
+              },
+              { "id": "crs_fullstack_m3_l1_r2", "title": "Starter files", "type": "zip", "url": "#", "size": "340 KB" }
+            ]
+          },
+          {
+            "id": "crs_fullstack_m3_l2",
+            "moduleId": "crs_fullstack_m3",
+            "title": "Working with the DOM",
+            "description": "In this lesson you will work through working with the dom with a guided walkthrough, practical examples and a short recap you can refer back to later.",
+            "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "durationSeconds": 1500,
+            "order": 2,
+            "isPreview": false,
+            "resources": [
+              { "id": "crs_fullstack_m3_l2_r1", "title": "Working with the DOM — slides (PDF)", "type": "pdf", "url": "#", "size": "1.2 MB" }
+            ]
+          },
+          {
+            "id": "crs_fullstack_m3_l3",
+            "moduleId": "crs_fullstack_m3",
+            "title": "Fetch, Promises and async/await",
+            "description": "In this lesson you will work through fetch, promises and async/await with a guided walkthrough, practical examples and a short recap you can refer back to later.",
+            "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+            "durationSeconds": 1680,
+            "order": 3,
+            "isPreview": false,
+            "resources": [
+              {
+                "id": "crs_fullstack_m3_l3_r1",
+                "title": "Fetch, Promises and async/await — slides (PDF)",
+                "type": "pdf",
+                "url": "#",
+                "size": "1.2 MB"
+              }
+            ]
+          }
+        ],
+        "quizId": "crs_fullstack_m3_quiz"
+      },
+      {
+        "id": "crs_fullstack_m4",
+        "courseId": "crs_fullstack",
+        "title": "React",
+        "description": "Components, hooks, routing and state.",
+        "order": 4,
+        "lessons": [
+          {
+            "id": "crs_fullstack_m4_l1",
+            "moduleId": "crs_fullstack_m4",
+            "title": "Components and JSX",
+            "description": "In this lesson you will work through components and jsx with a guided walkthrough, practical examples and a short recap you can refer back to later.",
+            "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+            "durationSeconds": 1080,
+            "order": 1,
+            "isPreview": false,
+            "resources": [
+              { "id": "crs_fullstack_m4_l1_r1", "title": "Components and JSX — slides (PDF)", "type": "pdf", "url": "#", "size": "1.2 MB" },
+              { "id": "crs_fullstack_m4_l1_r2", "title": "Starter files", "type": "zip", "url": "#", "size": "340 KB" }
+            ]
+          },
+          {
+            "id": "crs_fullstack_m4_l2",
+            "moduleId": "crs_fullstack_m4",
+            "title": "State and Effects",
+            "description": "In this lesson you will work through state and effects with a guided walkthrough, practical examples and a short recap you can refer back to later.",
+            "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+            "durationSeconds": 1560,
+            "order": 2,
+            "isPreview": false,
+            "resources": [
+              { "id": "crs_fullstack_m4_l2_r1", "title": "State and Effects — slides (PDF)", "type": "pdf", "url": "#", "size": "1.2 MB" }
+            ]
+          },
+          {
+            "id": "crs_fullstack_m4_l3",
+            "moduleId": "crs_fullstack_m4",
+            "title": "Routing and Data Fetching",
+            "description": "In this lesson you will work through routing and data fetching with a guided walkthrough, practical examples and a short recap you can refer back to later.",
+            "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+            "durationSeconds": 1800,
+            "order": 3,
+            "isPreview": false,
+            "resources": [
+              { "id": "crs_fullstack_m4_l3_r1", "title": "Routing and Data Fetching — slides (PDF)", "type": "pdf", "url": "#", "size": "1.2 MB" }
+            ]
+          }
+        ],
+        "quizId": "crs_fullstack_m4_quiz"
+      },
+      {
+        "id": "crs_fullstack_m5",
+        "courseId": "crs_fullstack",
+        "title": "Final Project",
+        "description": "Build and submit a complete portfolio application.",
+        "order": 5,
+        "lessons": [
+          {
+            "id": "crs_fullstack_m5_l1",
+            "moduleId": "crs_fullstack_m5",
+            "title": "Project Brief and Requirements",
+            "description": "In this lesson you will work through project brief and requirements with a guided walkthrough, practical examples and a short recap you can refer back to later.",
+            "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "durationSeconds": 600,
+            "order": 1,
+            "isPreview": false,
+            "resources": [
+              {
+                "id": "crs_fullstack_m5_l1_r1",
+                "title": "Project Brief and Requirements — slides (PDF)",
+                "type": "pdf",
+                "url": "#",
+                "size": "1.2 MB"
+              },
+              { "id": "crs_fullstack_m5_l1_r2", "title": "Starter files", "type": "zip", "url": "#", "size": "340 KB" }
+            ]
+          }
+        ],
+        "assignmentId": "crs_fullstack_m5_assignment"
+      },
+      {
+        "id": "crs_fullstack_m6",
+        "courseId": "crs_fullstack",
+        "title": "Final Assessment",
+        "description": "A timed assessment covering the entire course.",
+        "order": 6,
+        "lessons": [
+          {
+            "id": "crs_fullstack_m6_l1",
+            "moduleId": "crs_fullstack_m6",
+            "title": "How the Final Assessment Works",
+            "description": "In this lesson you will work through how the final assessment works with a guided walkthrough, practical examples and a short recap you can refer back to later.",
+            "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "durationSeconds": 300,
+            "order": 1,
+            "isPreview": false,
+            "resources": [
+              {
+                "id": "crs_fullstack_m6_l1_r1",
+                "title": "How the Final Assessment Works — slides (PDF)",
+                "type": "pdf",
+                "url": "#",
+                "size": "1.2 MB"
+              },
+              { "id": "crs_fullstack_m6_l1_r2", "title": "Starter files", "type": "zip", "url": "#", "size": "340 KB" }
+            ]
+          }
+        ],
+        "quizId": "crs_fullstack_m6_quiz",
+        "isFinalAssessment": true
+      }
+    ],
+    "outcomes": [
+      "Build responsive, accessible layouts with semantic HTML and modern CSS",
+      "Write clean JavaScript with ES2023 syntax, async/await and the fetch API",
+      "Create component-based interfaces in React with hooks and routing",
+      "Deploy a production build and set up a basic CI workflow",
+      "Present a portfolio project to hiring managers"
+    ],
+    "skills": ["HTML5", "CSS3", "Flexbox & Grid", "JavaScript", "React", "Git", "REST APIs", "Deployment"],
+    "prerequisites": ["Basic computer literacy", "No prior coding experience required"],
+    "faqs": [
+      {
+        "question": "Do I get lifetime access?",
+        "answer": "Yes. Once enrolled you can revisit every lesson, quiz and resource for as long as the course is published."
+      },
+      {
+        "question": "Is the certificate verifiable?",
+        "answer": "Every certificate carries a unique ID and QR code that resolves to a public verification page on certify.auctech.in."
+      },
+      {
+        "question": "Can I skip ahead?",
+        "answer": "Lessons unlock sequentially. You need to watch each video and pass the module quiz before the next module opens."
+      }
+    ],
+    "certificateCode": "FSWD",
+    "status": "published",
+    "isFeatured": true,
+    "createdAt": "2026-01-12T00:00:00.000Z",
+    "updatedAt": "2026-01-12T00:00:00.000Z"
+  },
+  "quizzes": [
+    {
+      "id": "crs_fullstack_m1_quiz",
+      "courseId": "crs_fullstack",
+      "moduleId": "crs_fullstack_m1",
+      "title": "HTML Fundamentals Quiz",
+      "description": "Check your understanding of HTML Fundamentals. You need 70% to pass.",
+      "passingScore": 70,
+      "timeLimitSeconds": 600,
+      "questions": [
+        {
+          "id": "crs_fullstack_m1_q1",
+          "prompt": "Which element represents the main content of a document?",
+          "options": [
+            { "id": "crs_fullstack_m1_q1_o1", "text": "<main>" },
+            { "id": "crs_fullstack_m1_q1_o2", "text": "<section>" },
+            { "id": "crs_fullstack_m1_q1_o3", "text": "<div>" },
+            { "id": "crs_fullstack_m1_q1_o4", "text": "<content>" }
+          ],
+          "correctOptionId": "crs_fullstack_m1_q1_o1",
+          "explanation": "<main> is the landmark element for the dominant content of the <body>."
+        },
+        {
+          "id": "crs_fullstack_m1_q2",
+          "prompt": "What attribute links a <label> to an input?",
+          "options": [
+            { "id": "crs_fullstack_m1_q2_o1", "text": "name" },
+            { "id": "crs_fullstack_m1_q2_o2", "text": "for" },
+            { "id": "crs_fullstack_m1_q2_o3", "text": "id-ref" },
+            { "id": "crs_fullstack_m1_q2_o4", "text": "bind" }
+          ],
+          "correctOptionId": "crs_fullstack_m1_q2_o2",
+          "explanation": "The for attribute must match the input's id."
+        },
+        {
+          "id": "crs_fullstack_m1_q3",
+          "prompt": "Which input type is best for an email address?",
+          "options": [
+            { "id": "crs_fullstack_m1_q3_o1", "text": "text" },
+            { "id": "crs_fullstack_m1_q3_o2", "text": "mail" },
+            { "id": "crs_fullstack_m1_q3_o3", "text": "email" },
+            { "id": "crs_fullstack_m1_q3_o4", "text": "address" }
+          ],
+          "correctOptionId": "crs_fullstack_m1_q3_o3"
+        },
+        {
+          "id": "crs_fullstack_m1_q4",
+          "prompt": "Where should <meta charset=\"utf-8\"> be placed?",
+          "options": [
+            { "id": "crs_fullstack_m1_q4_o1", "text": "Inside <body>" },
+            { "id": "crs_fullstack_m1_q4_o2", "text": "Inside <head>" },
+            { "id": "crs_fullstack_m1_q4_o3", "text": "After </html>" },
+            { "id": "crs_fullstack_m1_q4_o4", "text": "Inside <footer>" }
+          ],
+          "correctOptionId": "crs_fullstack_m1_q4_o2"
+        },
+        {
+          "id": "crs_fullstack_m1_q5",
+          "prompt": "Which element is semantically correct for navigation links?",
+          "options": [
+            { "id": "crs_fullstack_m1_q5_o1", "text": "<nav>" },
+            { "id": "crs_fullstack_m1_q5_o2", "text": "<links>" },
+            { "id": "crs_fullstack_m1_q5_o3", "text": "<menu-bar>" },
+            { "id": "crs_fullstack_m1_q5_o4", "text": "<aside>" }
+          ],
+          "correctOptionId": "crs_fullstack_m1_q5_o1"
+        }
+      ]
+    },
+    {
+      "id": "crs_fullstack_m2_quiz",
+      "courseId": "crs_fullstack",
+      "moduleId": "crs_fullstack_m2",
+      "title": "CSS Fundamentals Quiz",
+      "description": "Check your understanding of CSS Fundamentals. You need 70% to pass.",
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "crs_fullstack_m2_q1",
+          "prompt": "Which property aligns flex items along the main axis?",
+          "options": [
+            { "id": "crs_fullstack_m2_q1_o1", "text": "align-items" },
+            { "id": "crs_fullstack_m2_q1_o2", "text": "justify-content" },
+            { "id": "crs_fullstack_m2_q1_o3", "text": "place-self" },
+            { "id": "crs_fullstack_m2_q1_o4", "text": "flex-flow" }
+          ],
+          "correctOptionId": "crs_fullstack_m2_q1_o2"
+        },
+        {
+          "id": "crs_fullstack_m2_q2",
+          "prompt": "In CSS Grid, which unit distributes free space proportionally?",
+          "options": [
+            { "id": "crs_fullstack_m2_q2_o1", "text": "px" },
+            { "id": "crs_fullstack_m2_q2_o2", "text": "em" },
+            { "id": "crs_fullstack_m2_q2_o3", "text": "fr" },
+            { "id": "crs_fullstack_m2_q2_o4", "text": "vw" }
+          ],
+          "correctOptionId": "crs_fullstack_m2_q2_o3"
+        },
+        {
+          "id": "crs_fullstack_m2_q3",
+          "prompt": "Which selector has the highest specificity?",
+          "options": [
+            { "id": "crs_fullstack_m2_q3_o1", "text": "Element" },
+            { "id": "crs_fullstack_m2_q3_o2", "text": "Class" },
+            { "id": "crs_fullstack_m2_q3_o3", "text": "ID" },
+            { "id": "crs_fullstack_m2_q3_o4", "text": "Universal" }
+          ],
+          "correctOptionId": "crs_fullstack_m2_q3_o3"
+        },
+        {
+          "id": "crs_fullstack_m2_q4",
+          "prompt": "What does the box-sizing: border-box declaration do?",
+          "options": [
+            { "id": "crs_fullstack_m2_q4_o1", "text": "Removes borders" },
+            { "id": "crs_fullstack_m2_q4_o2", "text": "Includes padding and border in the element's width" },
+            { "id": "crs_fullstack_m2_q4_o3", "text": "Adds a shadow" },
+            { "id": "crs_fullstack_m2_q4_o4", "text": "Disables margins" }
+          ],
+          "correctOptionId": "crs_fullstack_m2_q4_o2"
+        },
+        {
+          "id": "crs_fullstack_m2_q5",
+          "prompt": "Which media feature targets viewport width?",
+          "options": [
+            { "id": "crs_fullstack_m2_q5_o1", "text": "min-width" },
+            { "id": "crs_fullstack_m2_q5_o2", "text": "min-device-pixel" },
+            { "id": "crs_fullstack_m2_q5_o3", "text": "orientation-width" },
+            { "id": "crs_fullstack_m2_q5_o4", "text": "screen-size" }
+          ],
+          "correctOptionId": "crs_fullstack_m2_q5_o1"
+        }
+      ]
+    },
+    {
+      "id": "crs_fullstack_m3_quiz",
+      "courseId": "crs_fullstack",
+      "moduleId": "crs_fullstack_m3",
+      "title": "JavaScript Quiz",
+      "description": "Check your understanding of JavaScript. You need 70% to pass.",
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "crs_fullstack_m3_q1",
+          "prompt": "Which keyword declares a block-scoped constant?",
+          "options": [
+            { "id": "crs_fullstack_m3_q1_o1", "text": "var" },
+            { "id": "crs_fullstack_m3_q1_o2", "text": "let" },
+            { "id": "crs_fullstack_m3_q1_o3", "text": "const" },
+            { "id": "crs_fullstack_m3_q1_o4", "text": "static" }
+          ],
+          "correctOptionId": "crs_fullstack_m3_q1_o3"
+        },
+        {
+          "id": "crs_fullstack_m3_q2",
+          "prompt": "What does Array.prototype.map return?",
+          "options": [
+            { "id": "crs_fullstack_m3_q2_o1", "text": "The same array mutated" },
+            { "id": "crs_fullstack_m3_q2_o2", "text": "A new array" },
+            { "id": "crs_fullstack_m3_q2_o3", "text": "A number" },
+            { "id": "crs_fullstack_m3_q2_o4", "text": "undefined" }
+          ],
+          "correctOptionId": "crs_fullstack_m3_q2_o2"
+        },
+        {
+          "id": "crs_fullstack_m3_q3",
+          "prompt": "Which value is falsy?",
+          "options": [
+            { "id": "crs_fullstack_m3_q3_o1", "text": "\"0\"" },
+            { "id": "crs_fullstack_m3_q3_o2", "text": "[]" },
+            { "id": "crs_fullstack_m3_q3_o3", "text": "0" },
+            { "id": "crs_fullstack_m3_q3_o4", "text": "{}" }
+          ],
+          "correctOptionId": "crs_fullstack_m3_q3_o3"
+        },
+        {
+          "id": "crs_fullstack_m3_q4",
+          "prompt": "What does await do inside an async function?",
+          "options": [
+            { "id": "crs_fullstack_m3_q4_o1", "text": "Blocks the whole browser" },
+            { "id": "crs_fullstack_m3_q4_o2", "text": "Pauses the function until the promise settles" },
+            { "id": "crs_fullstack_m3_q4_o3", "text": "Converts a value to a string" },
+            { "id": "crs_fullstack_m3_q4_o4", "text": "Creates a new thread" }
+          ],
+          "correctOptionId": "crs_fullstack_m3_q4_o2"
+        },
+        {
+          "id": "crs_fullstack_m3_q5",
+          "prompt": "Which method attaches an event listener?",
+          "options": [
+            { "id": "crs_fullstack_m3_q5_o1", "text": "on()" },
+            { "id": "crs_fullstack_m3_q5_o2", "text": "addEventListener()" },
+            { "id": "crs_fullstack_m3_q5_o3", "text": "listen()" },
+            { "id": "crs_fullstack_m3_q5_o4", "text": "bindEvent()" }
+          ],
+          "correctOptionId": "crs_fullstack_m3_q5_o2"
+        }
+      ]
+    },
+    {
+      "id": "crs_fullstack_m4_quiz",
+      "courseId": "crs_fullstack",
+      "moduleId": "crs_fullstack_m4",
+      "title": "React Quiz",
+      "description": "Check your understanding of React. You need 70% to pass.",
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "crs_fullstack_m4_q1",
+          "prompt": "Which hook stores local component state?",
+          "options": [
+            { "id": "crs_fullstack_m4_q1_o1", "text": "useMemo" },
+            { "id": "crs_fullstack_m4_q1_o2", "text": "useState" },
+            { "id": "crs_fullstack_m4_q1_o3", "text": "useRef" },
+            { "id": "crs_fullstack_m4_q1_o4", "text": "useId" }
+          ],
+          "correctOptionId": "crs_fullstack_m4_q1_o2"
+        },
+        {
+          "id": "crs_fullstack_m4_q2",
+          "prompt": "Props in React are…",
+          "options": [
+            { "id": "crs_fullstack_m4_q2_o1", "text": "Mutable by the child" },
+            { "id": "crs_fullstack_m4_q2_o2", "text": "Read-only" },
+            { "id": "crs_fullstack_m4_q2_o3", "text": "Global" },
+            { "id": "crs_fullstack_m4_q2_o4", "text": "Only strings" }
+          ],
+          "correctOptionId": "crs_fullstack_m4_q2_o2"
+        },
+        {
+          "id": "crs_fullstack_m4_q3",
+          "prompt": "What must every item in a rendered list have?",
+          "options": [
+            { "id": "crs_fullstack_m4_q3_o1", "text": "A unique key" },
+            { "id": "crs_fullstack_m4_q3_o2", "text": "An id attribute" },
+            { "id": "crs_fullstack_m4_q3_o3", "text": "A className" },
+            { "id": "crs_fullstack_m4_q3_o4", "text": "A ref" }
+          ],
+          "correctOptionId": "crs_fullstack_m4_q3_o1"
+        },
+        {
+          "id": "crs_fullstack_m4_q4",
+          "prompt": "When does useEffect with an empty dependency array run?",
+          "options": [
+            { "id": "crs_fullstack_m4_q4_o1", "text": "On every render" },
+            { "id": "crs_fullstack_m4_q4_o2", "text": "Only after the first render" },
+            { "id": "crs_fullstack_m4_q4_o3", "text": "Never" },
+            { "id": "crs_fullstack_m4_q4_o4", "text": "Before render" }
+          ],
+          "correctOptionId": "crs_fullstack_m4_q4_o2"
+        },
+        {
+          "id": "crs_fullstack_m4_q5",
+          "prompt": "Which is the recommended way to update state based on previous state?",
+          "options": [
+            { "id": "crs_fullstack_m4_q5_o1", "text": "setCount(count + 1) inside a loop" },
+            { "id": "crs_fullstack_m4_q5_o2", "text": "setCount(c => c + 1)" },
+            { "id": "crs_fullstack_m4_q5_o3", "text": "count++" },
+            { "id": "crs_fullstack_m4_q5_o4", "text": "this.state.count++" }
+          ],
+          "correctOptionId": "crs_fullstack_m4_q5_o2"
+        }
+      ]
+    },
+    {
+      "id": "crs_fullstack_m6_quiz",
+      "courseId": "crs_fullstack",
+      "moduleId": "crs_fullstack_m6",
+      "title": "Final Assessment Quiz",
+      "description": "Check your understanding of Final Assessment. You need 70% to pass.",
+      "passingScore": 70,
+      "timeLimitSeconds": 1200,
+      "questions": [
+        {
+          "id": "crs_fullstack_m6_q1",
+          "prompt": "Which HTML element should wrap a self-contained piece of content such as a blog post?",
+          "options": [
+            { "id": "crs_fullstack_m6_q1_o1", "text": "<article>" },
+            { "id": "crs_fullstack_m6_q1_o2", "text": "<span>" },
+            { "id": "crs_fullstack_m6_q1_o3", "text": "<b>" },
+            { "id": "crs_fullstack_m6_q1_o4", "text": "<frame>" }
+          ],
+          "correctOptionId": "crs_fullstack_m6_q1_o1"
+        },
+        {
+          "id": "crs_fullstack_m6_q2",
+          "prompt": "Which CSS layout module is best for two-dimensional layouts?",
+          "options": [
+            { "id": "crs_fullstack_m6_q2_o1", "text": "Flexbox" },
+            { "id": "crs_fullstack_m6_q2_o2", "text": "Floats" },
+            { "id": "crs_fullstack_m6_q2_o3", "text": "Grid" },
+            { "id": "crs_fullstack_m6_q2_o4", "text": "Tables" }
+          ],
+          "correctOptionId": "crs_fullstack_m6_q2_o3"
+        },
+        {
+          "id": "crs_fullstack_m6_q3",
+          "prompt": "What is the output type of JSON.parse(\"{\\\"a\\\":1}\")?",
+          "options": [
+            { "id": "crs_fullstack_m6_q3_o1", "text": "string" },
+            { "id": "crs_fullstack_m6_q3_o2", "text": "object" },
+            { "id": "crs_fullstack_m6_q3_o3", "text": "number" },
+            { "id": "crs_fullstack_m6_q3_o4", "text": "array" }
+          ],
+          "correctOptionId": "crs_fullstack_m6_q3_o2"
+        },
+        {
+          "id": "crs_fullstack_m6_q4",
+          "prompt": "In React, lifting state up means…",
+          "options": [
+            { "id": "crs_fullstack_m6_q4_o1", "text": "Moving state to a common ancestor" },
+            { "id": "crs_fullstack_m6_q4_o2", "text": "Storing state in localStorage" },
+            { "id": "crs_fullstack_m6_q4_o3", "text": "Using global variables" },
+            { "id": "crs_fullstack_m6_q4_o4", "text": "Deleting state" }
+          ],
+          "correctOptionId": "crs_fullstack_m6_q4_o1"
+        },
+        {
+          "id": "crs_fullstack_m6_q5",
+          "prompt": "Which HTTP method is idempotent and used to fetch data?",
+          "options": [
+            { "id": "crs_fullstack_m6_q5_o1", "text": "POST" },
+            { "id": "crs_fullstack_m6_q5_o2", "text": "GET" },
+            { "id": "crs_fullstack_m6_q5_o3", "text": "PATCH" },
+            { "id": "crs_fullstack_m6_q5_o4", "text": "CONNECT" }
+          ],
+          "correctOptionId": "crs_fullstack_m6_q5_o2"
+        },
+        {
+          "id": "crs_fullstack_m6_q6",
+          "prompt": "What does the CSS property gap control?",
+          "options": [
+            { "id": "crs_fullstack_m6_q6_o1", "text": "Spacing between flex or grid items" },
+            { "id": "crs_fullstack_m6_q6_o2", "text": "Line-height" },
+            { "id": "crs_fullstack_m6_q6_o3", "text": "Letter spacing" },
+            { "id": "crs_fullstack_m6_q6_o4", "text": "Border width" }
+          ],
+          "correctOptionId": "crs_fullstack_m6_q6_o1"
+        },
+        {
+          "id": "crs_fullstack_m6_q7",
+          "prompt": "Which statement about const arrays is true?",
+          "options": [
+            { "id": "crs_fullstack_m6_q7_o1", "text": "You cannot push to them" },
+            { "id": "crs_fullstack_m6_q7_o2", "text": "You can push but cannot reassign" },
+            { "id": "crs_fullstack_m6_q7_o3", "text": "They are immutable" },
+            { "id": "crs_fullstack_m6_q7_o4", "text": "They become strings" }
+          ],
+          "correctOptionId": "crs_fullstack_m6_q7_o2"
+        },
+        {
+          "id": "crs_fullstack_m6_q8",
+          "prompt": "What does a 404 status mean?",
+          "options": [
+            { "id": "crs_fullstack_m6_q8_o1", "text": "Server error" },
+            { "id": "crs_fullstack_m6_q8_o2", "text": "Unauthorized" },
+            { "id": "crs_fullstack_m6_q8_o3", "text": "Not found" },
+            { "id": "crs_fullstack_m6_q8_o4", "text": "Redirect" }
+          ],
+          "correctOptionId": "crs_fullstack_m6_q8_o3"
+        }
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "id": "crs_fullstack_m5_assignment",
+      "courseId": "crs_fullstack",
+      "moduleId": "crs_fullstack_m5",
+      "title": "Portfolio Web Application",
+      "instructions": "Build a multi-page React application that consumes a public API, includes at least one form with validation, is fully responsive and is deployed to a public URL. Submit a ZIP of the repository and include the live link in your note.",
+      "deadline": "2026-11-21T06:58:07.500Z",
+      "maxMarks": 100,
+      "allowResubmission": true
+    }
+  ]
+}
